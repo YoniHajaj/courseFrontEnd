@@ -1,0 +1,26 @@
+b {
+    background: #1a8cff;
+    color: white;
+}
+
+h1 {
+    color: #1a8cff
+}
+
+a {
+    color: red
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a300cc;
+}
+
+.leftImage {
+    position: absolute;
+    left: 20px;
+    top: -50px;
+}
