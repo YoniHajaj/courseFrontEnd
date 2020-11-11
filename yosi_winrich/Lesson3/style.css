@@ -1,0 +1,40 @@
+p{
+    color: rgb(162, 23, 243);
+}
+h1{
+    color: chocolate; 
+    background-color: burlywood;
+    padding: 35px;
+    font-size: 35px;
+    text-align: center;
+}
+h2{
+    color: cornflowerblue;
+}
+ul{
+    color: rgb(233, 18, 18);
+}
+ol{
+    color: rgb(27, 27, 100);
+}
+body{
+    width: 1024px;
+    margin: auto;
+     color: rgb(69, 104, 5);}
+table caption{color: rgb(234, 250, 14);}
+table tr th{color: blue;background-color: darkred;} 
+table tr td{color: rgb(224, 77, 28);background-color: darkslateblue;}
+.web {
+    widows: 10px;
+    display: inline-block;
+    
+}
+.music{
+    width:100px;
+    display: inline-block;
+}
+.post{
+    width:100px;
+    display: inline-table;
+    margin: 55 55 55 55;
+}
