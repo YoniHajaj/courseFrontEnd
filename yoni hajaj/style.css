@@ -5,31 +5,33 @@ p {
 .article-main {
     color: chartreuse;
 
-}
+ }
 
 #first-article {
-    width: 1000px;
-    color: rgb(0, 2, 139);
-  
-
-}
-
-    
-body {
-    
     width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
+    color: rgb(87, 83, 83);
+ }
+ 
+.body {
+    width: 1024;
+ }
+     
 .post {
-    width: 300px;
+
+    width: 200px;
     display:inline-block;
     padding: 5px;
     border:slategray solid 1px;
     margin:5px;
 }
+
  .post img {
-     width: 50%;
- }
+      width:50% ;
+}
+
+.header {
+    width: auto;
+    padding: 5px;
+    border:5px solid coral;
+    margin:5px ;
+}
