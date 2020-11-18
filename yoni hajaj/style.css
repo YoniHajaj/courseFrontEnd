@@ -1,4 +1,89 @@
-p { 
+
+.main{  
+    width: 1000px;
+    margin: 0 auto;
+}
+.right{
+    width: 800px;
+    background-color: rgba(51, 153, 148, 0.993);
+    padding: 10px;
+    margin: auto;
+    display:inline-block;
+    float: right;
+    position: relative;
+}
+.left {
+    width: 200px;
+     background-color: rgb(80, 153, 51);
+    display:inline-block;
+    float: right;
+    position: relative;
+}
+div.logo{
+     width: 100px;
+     display:inline-block;
+     float: right;
+     position: relative;
+}
+nav {
+    width: 700px;
+    display:inline-block;
+    float: right;
+    position: relative;
+}
+ul.menu{
+
+}
+ul.menu li {
+    display: inline block;
+    float: right;
+    position: relative;
+    margin: 20px;
+    padding: 5px;
+    border-top: 2px  deepskyblue solid;
+    border-bottom: 2px deepskyblue solid;
+}
+ul.menu li  a{
+    color: red;
+   font-size: 50px;
+   font-weight: bold;
+   font-family: 'Quicksand' sans-serif;
+}
+ul.menu li  a:link{
+    text-decoration: none;
+    color:  rgb(255, 208, 0);
+}
+ul.menu li a:visited{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.904)
+}
+ul.menu li a:hover{
+ text-decoration:none;
+ color: rgb(52, 225, 0);
+}
+ul.menu li a:active{
+    text-decoration: none;
+    color: rgb(225, 0, 187);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-red{
+    color: #000;
+}
+
+p {  
     color:brown ;
 }
 
