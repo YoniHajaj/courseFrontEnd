@@ -54,7 +54,6 @@ ul.menu li  a:link{
 }
 ul.menu li a:visited{
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.904)
 }
 ul.menu li a:hover{
  text-decoration:none;
@@ -68,12 +67,20 @@ ul.menu li a:active{
 
 }
 .slider .image{
-
+    background-color: rgb(153, 51, 90);
+   width: 500px;
+    height: 250px ;
+    display:inline-block;
+    float: right;
+    position: relative;
 }
 .slider .text{
-
-}
-      
+ padding: 25px;
+ display:inline-block;
+ float: right;
+ position: relative;
+ width: 500px;
+}     
 .slider  .text p{
     direction: rtl;
     text-align: center;
@@ -88,8 +95,7 @@ ul.menu li a:active{
     padding: 20px;
     letter-spacing: 5px;
 }
-
-
+ 
 
 
 
