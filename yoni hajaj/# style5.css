@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1000%;
+    height: 60px;
+    display: flex;
+    background-color:rgba(4, 0, 255, 0.692) ;
+    flex-direction: row-reverse;
+}
+.parent{ 
+
+}
+.logo{
+
+}
+.logo p{
+
+}
