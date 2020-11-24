@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1000%;
+    height: 60px;
+    display: flex;
+    background-color: antiquewhite ;
+    flex-direction: row;
+
+}
+.logo{
+    flex-grow: 1;
+}
+.logo p{
+text-align: center;
+}
+.nevigation{ flex-grow: 2;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: azure;
+}
+ul.parent {
+  list-style: none;
+}
+.parnet li a{
+    text-decoration: none;
+    background-color:cadetblue;
+    color: white;
+    padding: 10px;
+}
