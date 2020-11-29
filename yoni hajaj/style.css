@@ -1,4 +1,50 @@
+body{
+    background: #000;
+}
 
+.button-red{
+    color: #000;
+}
+
+p {  
+    color:brown ;
+}
+
+.article-main {
+    color: chartreuse;
+
+ }
+
+#first-article {
+    width: 1024px;
+    color: rgb(87, 83, 83);
+ }
+ 
+
+ 
+.body {
+    width: 1024;
+ }
+     
+.post {
+
+    width: 200px;
+    display:inline-block;
+    padding: 5px;
+    border:slategray solid 1px;
+    margin:5px;
+}
+
+ .post img {
+      width:50% ;
+}
+
+.header {
+    width: auto;
+    padding: 5px;
+    border:5px solid coral;
+    margin:5px ;
+}
 .main{  
     width: 1000px;
     margin: 0 auto;
@@ -91,54 +137,4 @@ ul.menu li a:active{
     direction: rtl;
     padding: 20px;
     letter-spacing: 5px;
-}
- 
-
-
-
-
-
-
-
-
-.button-red{
-    color: #000;
-}
-
-p {  
-    color:brown ;
-}
-
-.article-main {
-    color: chartreuse;
-
- }
-
-#first-article {
-    width: 1024px;
-    color: rgb(87, 83, 83);
- }
- 
-.body {
-    width: 1024;
- }
-     
-.post {
-
-    width: 200px;
-    display:inline-block;
-    padding: 5px;
-    border:slategray solid 1px;
-    margin:5px;
-}
-
- .post img {
-      width:50% ;
-}
-
-.header {
-    width: auto;
-    padding: 5px;
-    border:5px solid coral;
-    margin:5px ;
 }
