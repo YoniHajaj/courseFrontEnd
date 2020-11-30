@@ -19,20 +19,20 @@ header{
 .parent {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .logo{
-    flex-grow: 1;
+    flex-grow: 0.5;
 }
 .navigation{
     flex-grow: 1;
 }
 ul.parent{
-    list-style: none;
+     list-style: none; 
 }
-.parent  li a{
+.parent  li {
     text-decoration: none;
     background-color: rgb(238, 130, 175);
     color: rgb(19, 37, 139);
-    padding: 10px;
+    padding: 0px;
 }
