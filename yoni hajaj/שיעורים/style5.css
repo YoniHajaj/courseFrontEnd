@@ -5,31 +5,34 @@ body{
 header{
     width: 100%;
     height: 60px;
+    background: rebeccapurple;
+    flex-direction: row-reverse;
     display: flex;
-    background-color: antiquewhite ;
-    flex-direction: row;
+}
 
+.logo p{
+    text-align: center;
+    color: darkgrey;
+
+}
+
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 .logo{
     flex-grow: 1;
 }
-.logo p{
-text-align: center;
+.navigation{
+    flex-grow: 1;
 }
-.nevigation{ flex-grow: 2;
-}
-.parent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background: azure;
-}
-ul.parent {
+ul.parent{
     list-style: none;
 }
-.parnet li a{
+.parent  li a{
     text-decoration: none;
-    background-color:cadetblue;
-    color: white;
+    background-color: rgb(238, 130, 175);
+    color: rgb(19, 37, 139);
     padding: 10px;
 }
