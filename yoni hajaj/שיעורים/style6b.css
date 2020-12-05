@@ -1,0 +1,60 @@
+.body{
+    width: 100px;
+}
+.parent{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    display: grid;
+     grid-template-columns: 2fr 1fr 1fr; 
+     grid-template-rows: 1fr;
+    grid-template-areas : "barce barca  barca "
+                            "eibar eibar valnsia"
+                            "batis betis valsia"
+                            "palmas palmas palmas" ;
+} 
+ 
+  }  
+.boys{
+    height: 85px;
+    border:   red solid 1px;
+    background-color: yellow;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.barca{
+  grid-area: barca;
+}
+.eibar{
+    grid-area:
+}
+.valnsia{
+    grid-area:
+}
+.betis{
+    grid-area:
+}
+.palmas{
+    grid-area:
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
