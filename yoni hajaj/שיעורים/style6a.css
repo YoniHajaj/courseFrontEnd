@@ -1,21 +1,21 @@
 .parent{
-    width: 100%;
-    height: 100px;
-    background-color: green;
+    width: 92%;
+    height: 384px;
+    background-color: #E91E63;
     display: grid;
-    /* grid-template-columns: 300px 200px 300px 500px; */
-    row-gap: 10px;
+    grid-template-columns: 100px  auto 100px;
     column-gap: 15px;
+    row-gap: 10px;
 }
 .boys{
-    height: 85px;
-    border:   red solid 1px;
+    height: 74px;
     background-color: yellow;
     float: left;
     position: relative;
+    text-align: center;
 }
 .boys.first{
-    grid-column: 1/4;
+  grid-column: 1/3;
 }
 
 

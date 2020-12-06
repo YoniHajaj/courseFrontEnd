@@ -11,7 +11,7 @@
     background-position: 279px 76px;
     /* background-attachment: fixed; */ /* fixed; התמונה הולכת איתך לכל מקום  */
     width: 100%;
-    height: 1500px;
+    height: 1000px;
     /* position: fixed;  לכוון אותו מלמעלה למטה או מהצדדים */
     /* top: -6px; * לכוון אותו מלמעלה למטה או מהצדדים/
     /* right: 143px; " " */
@@ -31,24 +31,37 @@
     font-size: 3rem;
     
 }
-.vw-vh{
+ /*.vw-vh{ 
     width: 20vw;
     height: 20vw;
+    padding: 36px;
+    margin: 27px;
     background-color: rgb(0, 255, 234);
     border-radius: 22px 15px 62px 112px;
 }
-@media (max-width : 600px ) {
-   .vw-vh{
-
+*/
+.dad {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.cris{
+    background-color: green;
+    padding: 4px;
+    margin: 6px;
+}
+ @media (max-width : 600px ) {
+        .cris {
+            width: 87%;
    }
 }
 @media (min-width: 601px) and ( max-width: 1200px) {
-    .vw-vh{
-     width: 600px;
-     height: 1000px;
+    .cris {
+     min-width: 289px;
     }
 }
-@media (min-width: 1201px ) {
-    width: 1000px;
-    height: 1000px;
+@media (min-width: 1201px) {
+    .cris{
+    min-width: 290px;
+   }
 }

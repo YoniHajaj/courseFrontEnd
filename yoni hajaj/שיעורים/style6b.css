@@ -1,24 +1,18 @@
-.body{
-    width: 100px;
-}
 .parent{
-    height: 100px;
     width: 100%;
     background-color: green;
     display: grid;
-     grid-template-columns: 2fr 1fr 1fr; 
-     grid-template-rows: 1fr;
-    grid-template-areas : "barce barca  barca "
-                            "eibar eibar valnsia"
-                            "batis betis valsia"
-                            "palmas palmas palmas" ;
-} 
- 
-  }  
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas :    "barca    barca     barca"
+                            "valnsia   valnsia  madrid "
+                            "betis    betis     madrid"
+                            "palmas    palmas   palmas";
+}  
 .boys{
-    height: 85px;
-    border:   red solid 1px;
+    border: red solid 1px;
     background-color: yellow;
+    color: darkblue;
     float: left;
     position: relative;
     text-align: center;
@@ -27,19 +21,18 @@
 .barca{
   grid-area: barca;
 }
-.eibar{
-    grid-area:
-}
 .valnsia{
-    grid-area:
+    grid-area: valnsia;
 }
 .betis{
-    grid-area:
+    grid-area: betis;
 }
 .palmas{
-    grid-area:
+    grid-area: palmas;
 }
-
+.madrid{
+    grid-area: madrid;
+}
 
 
 
