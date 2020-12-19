@@ -28,7 +28,7 @@ header{
     flex-grow: 1;
 }
 ul.parent{
-     list-style: none; 
+     /* list-style: none; */
 }
 .parent  li {
     text-decoration: none;

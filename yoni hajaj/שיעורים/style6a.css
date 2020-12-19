@@ -1,7 +1,7 @@
 .parent{
     width: 92%;
     height: 384px;
-    background-color: #E91E63;
+    background-color: #7c505f;
     display: grid;
     grid-template-columns: 100px  auto 100px;
     column-gap: 15px;
