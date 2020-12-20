@@ -237,13 +237,26 @@ footer{
     justify-content: space-around;
     height: 202px;
     line-height: 43px;
+    text-decoration: none;
 }
 ul.parnet {
-    color: #00f3ff;
-    /* background-color: rgb(0 139 4 / 52%); */
-    list-style: none;
-    font-size: 20px;
-    font-family: sans-serif;
+ 
+color: #00f3ff;
+ 
+/* background-color: rgb(0 139 4 / 52%); */
+ 
+list-style: none;
+ 
+font-size: 20px;
+ 
+font-family: sans-serif;
+}
+ul.parnet li a:link{
+    text-decoration: none;
+}
+ul.parnet li a:active{
+    text-decoration: none;
+   
 }
 .papa{
     background-color: #009688;
@@ -263,17 +276,21 @@ margin-bottom: 50px;
 padding: 13px 0;
 }
 .textbox {
-    width: 100%;
-    overflow: hidden;
-    font-size: 22px;
-    padding: 8px 0;
-    margin: 8px 0;
-    border-bottom: 1px solid green;
+    
+width: 100%;
+    
+overflow: hidden;
+    
+font-size: 22px;
+    
+padding: 8px 0;
+    
+margin: 8px 0;
+    
+border-bottom: 1px solid green;
 }
 .textbox i{
     width: 26px;
     float: left;
     text-align: center;
-}
-.textbox input{
 }
