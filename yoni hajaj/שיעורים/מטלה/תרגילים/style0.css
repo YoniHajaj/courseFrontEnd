@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: green;
+}
+.title{
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+    display: inline-block;
+    float: left;
+    line-height: 65px;
+    margin-left: 5px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    line-height: 60px;
+}
+li{
+    list-style: none;
+    
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a {
+    text-decoration: none;
+}
+li a a:link {
+  color: gray;
+  
+}
+li a a:active{
+   color: red;
+   
+}
+li a a:hover{
+   color: yellow;
+}

@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-com{
+    width: 100%;
+    height: 93px;
+    background-color: black;
+    margin: 0 auto;
+}
+.logo {
+    font-size: 30px;
+    color: gray;
+    display: inline-block;
+    float: left;
+}
+.logo p {
+    margin: 20px;
+}
+ul.parnet {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    line-height: 61px;
+    flex-direction: row-reverse;
+}
+.navi {
+margin: 0 4px;
+padding: 10px;
+color: green;
+list-style: none;
+font-size: 26px;
+}
+.li {
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color:white
+}
+li a:active{
+    color: blue;
+}
+li  a:visited{
+    
+}
+li  a:link{
+    color: gray;
+}
+li a:hover{
+    color:green;
+}
+
+.header-logo{
+    width: 100%;
+    height: 30px;
+   margin-top: 15px;
+}
+.logo1{
+    text-align: center;
+    font-size: 50px;
+    font-family: serif;
+    color: darkgrey;
+}
+main{
+    width: 96%;
+    height: 650px;
+}
+.home {
+    display: flex;
+    width: 100%;
+    height: 436px;
+    margin-top: 99px;
+    margin-bottom: -65px;
+    padding: 26px;
+}
+.home  .home-image .img1 img {
+    width: 99%;
+    overflow: hidden;
+}
+.text h1 {
+    text-align: center;
+}
+.text h2 {
+    text-align: center;
+    font-size: 32px;
+}
+.text h3 {
+    text-align: center;
+    font-size: 32px;
+}
+.title5{
+    float: left;
+    font-size: 52px;
+    margin-left: 501px;
+    padding: 26px;
+    color: blue;
+    margin-top: -140px;
+}
+
+.logo3 {
+  
+    text-align: center;
+    margin-top: 135px;
+    margin-left: 5px;
+}
+.logo3 p{
+    color: brown;
+    font-size: 51px;
+}
+
+
+.logo3 .img2 text p {
+    font-size: 40px;
+    color: brown;
+    font-size: 51px;
+}
+article.text p{
+    font-family: sans-serif;
+    margin-top: -508px;
+    font-size: 28px;
+ }
+
+
+
+
+
+.title p {
+    font-size: 24px;
+}
+
+.footer-main{
+    display: flex;
+    width: 100%;
+    background-color: coral;
+    justify-content: space-around;
+    margin-top: 29px;
+    margin-left: 23px;
+}
+
+.finle h1{
+    text-align: center;
+}
+.header-cam{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    background-color: bisque;
+    margin-top: 10px;
+}
+.header-cam  .header-main .image11 img {
+    width: 87%;
+    overflow: hidden;
+    margin: 10px;
+  
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog .blog-wine .image img {
+    width: 87%;
+    overflow: hidden;
+    margin: 10px;
+  
+}
+
+.pr a {
+    text-decoration: none;
+}
+
+
+       /*footer*/
+
+.save h1 {
+    text-align: center;
+    color: gray;
+    font-size: 45px;
+    margin-top: 35px;
+}
+
+.document {
+    text-align: center;
+    margin-top: 88px;
+    
+}
+form{
+    background-color: bisque;
+    margin-left: 56px;
+    height: 461px;
+    
+} 
+.title-wine h2 {
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    color: brown;
+    font-size: 43px;
+    font-family: monospace;
+    border-radius: 5px;
+    background: cadetblue;
+    width: 22%;
+}
+
+
+    
+.blog-wine {
+       
+        display: grid;
+         grid-template-columns: repeat(3,314px);
+        grid-template-rows: 309px;
+        gap: 29px;
+        border: 1px solid 1 px black;
+        margin-top: 36px;
+        height: 681px;
+        background-color: cadetblue;
+        width: 95%;
+        margin-left: 34px;
+        text-align: center;
+        height: 320px;
+    }
+
+.blog-image{
+    margin-top: 5px;
+}
+ .text h1 a:active{
+list-style: none;
+text-decoration: none;
+}
+.text h1 a:link{
+    list-style: none; 
+    text-decoration: none;
+}
+
+
+
+
+.blog-wine  .section-blog .blog-image img {
+  
+    width: 59%;;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.document .cont1 input  {
+margin: 10px;
+padding: 10px;
+font-size: 24px;
+height: 15px;
+width: 298px;
+}
+.document .cont1 label {
+    font-size: 30px;
+}
+
+label.massge{
+FONT-SIZE: 30px;
+}
+.cont5 button {
+color: blue;
+background-color: blanchedalmond;
+font-size: 17px;
+}
+
+
+
+
+/*display: grid;
+    width: 102%;
+    grid-template-columns: repeat(3,149px);
+    grid-template-rows: 218px;
+    gap: 29px;
+    height: 601px;*/
+
+
+
+    .section-middle {
+        margin: 40px 0 0 0; 
+    }
+    
+    .section-middle h2{
+        margin: 20px 10px; 
+        text-align: center;
+    }
+    .blog-section {
+        display: grid;
+        grid-template-columns: repeat(3,210px);
+        gap: 6px;
+        grid-template-rows: 861px;
+        margin-left: 209px;
+        background-color: gray;
+        width: 59%;
+        border: 1px solid yellow;
+    }
+    
+    .blog-section .blog-image20{
+        margin: 10px;
+       
+    }
+    
+    .blog-section .blog-image20 .factor img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .mamar p{
+        font-size: 20px;
+        border-radius: 7px;
+        color: blanchedalmond;
+        background-color: cornflowerblue;
+        width: 94px;
+        
+    }
