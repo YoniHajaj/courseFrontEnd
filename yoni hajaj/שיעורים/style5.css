@@ -31,8 +31,8 @@ ul.parent{
      /* list-style: none; */
 }
 .parent  li {
-    text-decoration: none;
     background-color: rgb(238, 130, 175);
+    text-decoration: none;
     color: rgb(19, 37, 139);
     padding: 0px;
 }

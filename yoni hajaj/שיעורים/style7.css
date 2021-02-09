@@ -5,7 +5,7 @@
     height: 406px;
 }
 .mother {
-    background-image: url(./Alcohol_01.jpg);
+   background-image: url(./Alcohol_01.jpg);
     background-size: 104px;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */ /* fixed; התמונה הולכת איתך לכל מקום  */
